@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
     //Set event listeners/handlers for buttons
     document.getElementById('home').onclick = dohome;
     document.getElementById('recipesearch').onclick = dorecipesearch;
-    document.getElementById('favorites').onclick = dofavorites;
     document.getElementById('signin').onclick = dosignin;
+    document.getElementById('popularrecipes').onclick = dopopular;
     
     //Set listeners for Auth State Changed
     firebase.auth().onAuthStateChanged(function (user) {
@@ -51,8 +51,9 @@ document.addEventListener("DOMContentLoaded", function () {
 function buttons_not_signed_in(){
     document.getElementById('home').disabled = false;
     document.getElementById('recipesearch').disabled = true;
-    document.getElementById('favorites').disabled = false;
+    document.getElementById('popularrecipes').disabled = true;
     document.getElementById('signin').disabled = false;
+
 }
 
 
@@ -60,15 +61,15 @@ function buttons_not_signed_in(){
 function buttons_signed_in(){
     document.getElementById('home').disabled = false;
     document.getElementById('recipesearch').disabled = false;
-    document.getElementById('favorites').disabled = false;
+    document.getElementById('popularrecipes').disabled = false;
     document.getElementById('signin').disabled = false;
 }
 
 //unselect all buttons
 function clean_buttons(){
-    document.getElementById('home').classList.remove("selected")
-    document.getElementById('recipesearch').classList.remove("selected")
-    document.getElementById('favorites').classList.remove("selected")
-    document.getElementById('signin').classList.remove("selected")
+    document.getElementById('home').classList.remove("selected");
+    document.getElementById('recipesearch').classList.remove("selected");
+    document.getElementById('popularrecipes').classList.remove("selected");
+    document.getElementById('signin').classList.remove("selected");
 
 }

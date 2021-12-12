@@ -16,9 +16,7 @@ var dohome = function(){
     workspace.append(p1);
 
     var h3 = document.createElement('h3');
-    text = document.createTextNode("Trinity Carnegie : Z23432125");
-    h3.appendChild(text);
-    workspace.appendChild(h3);
-
-
+    var txt = document.createTextNode("Trinity Carnegie : Z23432125");
+    h3.appendChild(txt);
+    workspace.append(h3);
 }
