@@ -1,7 +1,6 @@
 # TheHappyHourApp
   **Final Project for COP4655 Mobile Apps Project**<br/>
   A Cocktail Recipe App
-#
 # Home Screen 
   ![HomeScreen](homepage.jpg)
 # How to Use...
