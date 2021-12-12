@@ -1,0 +1,138 @@
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+h1{
+    font-size:40px;
+    font-weight: bold;
+}
+
+h3{
+    font-size:20px;
+    font-weight:bold;
+}
+
+#page {
+  height: 100%; width: 100%;
+    background-color: #519DF0;
+}
+#tdcontent {
+  height: 100%;
+}
+
+/*.navbar navbar-expand-lg{
+    background-color: #519df0;
+}
+
+.topnav{
+    background-color: #519DF5; 
+    overflow: hidden;
+}
+
+.topnav a:hover{
+    color:white;
+}*/
+
+iframe{
+    width: 97%;
+    height: 97%;
+	margin: 5px 5px 5px 5px;
+
+}
+
+button{
+    border-radius: 15px;
+}
+
+#recipesearchtable{
+    background-color: #ffffff;
+    border-radius: 25px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align:center;
+}
+
+#recipesearchtabletr{
+    background-color: #ffffff;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: Tahoma;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px 0 10px 0;
+}
+
+#recipesearchtd{
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+#recipesearchtabletr:nth-child(even) {
+    background-color: #c7bdc0;
+}
+
+
+
+
+#content {
+  font-family: Tahoma, 'sans-serif' ;
+  text-align:center;
+  background-color:white;
+  height:100%;
+  overflow: auto; /* or overflow: hidden; */
+}
+
+.selected{
+    background-color : lightslategray;
+}
+
+#signin{
+    font-weight: bold;
+    width: 19%;
+    height: 20%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+}
+
+#home{
+    font-weight: bold;
+    width: 19%;
+    height: 20%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+}
+#recipesearch{
+    font-weight: bold;
+    width:19%;
+    height: 20%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+}
+
+#favorites{
+    font-weight: bold;
+    width: 19%;
+    height: 20%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+}
+/*#home, #signin, #favorites, #recipesearch {
+    font-weight: bold;
+}
+footer{
+    background-color:#519DF5;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}*/

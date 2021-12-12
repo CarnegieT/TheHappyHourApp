@@ -14,14 +14,35 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "cordova-android": "^9.1.0",
-    "cordova-plugin-whitelist": "^1.3.5"
+    "cordova-plugin-browsertab": "git+https://github.com/bthaw2018/cordova-plugin-browsertab.git",
+    "cordova-plugin-firebase-lib": "^5.1.1",
+    "cordova-plugin-inappbrowser": "^5.0.0",
+    "cordova-plugin-whitelist": "^1.3.5",
+    "cordova-support-android-plugin": "^1.0.2",
+    "cordova-universal-links-plugin": "git+https://github.com/cgaeking/cordova-universal-links-plugin-fix.git"
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {}
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-buildinfo": {},
+      "cordova-universal-links-plugin": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-browsertab": {
+        "CUSTOM_TAB_COLOR_RGB": "#ffffff"
+      },
+      "cordova-plugin-customurlscheme": {
+        "URL_SCHEME": "io.cordova.hellocordova",
+        "ANDROID_SCHEME": " ",
+        "ANDROID_HOST": " ",
+        "ANDROID_PATHPREFIX": "/"
+      }
     },
     "platforms": [
       "android"
     ]
+  },
+  "dependencies": {
+    "cordova-plugin-buildinfo": "4.0.0",
+    "cordova-plugin-customurlscheme": "5.0.2"
   }
 }
